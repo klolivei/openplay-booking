@@ -1,7 +1,7 @@
-.PHONY: clean venv install
+.PHONY: clean venv install run
 
 setup: venv install
-    
+
 venv:
 	@echo "Creating python virtual environment in 'venv' folder..."
 	@python3 -m venv venv
